@@ -116,7 +116,7 @@ class ConnectPlatformRepository implements PlatformRepository {
   // accessToken / refreshToken / user at the top level). Until eden-platform-go
   // catches up, parsing the wire response through the generated proto would
   // silently produce empty tokens. See
-  // https://github.com/AO-Cyber-Systems/eden-platform-go/issues/20 for the
+  // https://github.com/AOCyberAI/eden-platform-go/issues/20 for the
   // households-table conflict that is currently blocking the proto bump.
   @override
   Future<PlatformSession> login(String email, String password) async {

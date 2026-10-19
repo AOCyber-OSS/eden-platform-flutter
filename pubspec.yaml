@@ -34,7 +34,7 @@ dependencies:
   # See eden-biz-flutter.SAAS/.planning/objectives/10-client-security-baseline/10-RESEARCH.md Pitfall 1.
   flutter_secure_storage: 9.2.4
   # eden-platform-api-dart is published as its own standalone GitHub repo
-  # (AO-Cyber-Systems/eden-platform-api-dart, public). Referencing it
+  # (AOCyber-OSS/eden-platform-api-dart, public). Referencing it
   # directly avoids forcing consumers to authenticate against the private
   # eden-libs superproject just to fetch the generated Dart clients.
   # Inside the eden-libs monorepo, dependency_overrides in the consuming

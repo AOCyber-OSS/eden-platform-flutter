@@ -17,7 +17,7 @@
 #
 #     eden_platform_flutter:
 #       git:
-#         url: https://github.com/AO-Cyber-Systems/eden-platform-flutter.git
+#         url: https://github.com/AOCyber-OSS/eden-platform-flutter.git
 #         ref: a26fb08099cf71a6b6d5ba0f5c857fce43457787
 #
 # `flutter pub get` therefore resolves eden from ~/.pub-cache/git/ at THAT REF.
